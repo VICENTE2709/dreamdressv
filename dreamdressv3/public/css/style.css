@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6f6; /* Light pink background */
+    color: #444;
+}
+.navbar {
+    background-color: #e8c1c1; /* Soft pink for navbar */
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #5c3c3c; /* Darker text for contrast */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.navbar a:hover {
+    background-color: #d1a3a4; /* Slightly darker pink on hover */
+    color: white;
+}
+.navbar a.active {
+    background-color: #b37b7c; /* Stronger pink for active link */
+    color: white;
+    font-weight: bold;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.08);
+    border-radius: 8px;
+}
+h1, h2 {
+    color: #a76464; /* Thematic color for headings */
+}
+a {
+    color: #b37b7c;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
